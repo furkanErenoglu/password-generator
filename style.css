@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page-inner{
+    padding-left: 52px;
+    padding-top: 110px;
+    background-color: #ecfdf5;
+}
+
+.first-h1{
+    color: #2b283a;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 40px;
+    margin-right: 144px;
+}
+
+.sec-h1{
+    color: #10b981;
+    
+}
+
+.page p{
+    margin-top: 10px;
+    color: #6b7280;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 51px;
+}
+
+.btn{
+    padding: 9px 17px 9px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    background-color: #10b981;
+    color: #5def92;
+}
+
+.line{
+    height: 1px;
+    width: 446px;
+    background-color: #d5d4d8;
+    margin: 35px 0;
+    display: block;
+}
+
+.border-pasw{
+    display: flex;
+    margin-top: 35px;
+    
+    flex-wrap: wrap;
+    margin-bottom: 54px;
+}
+
+.border-pasw-inner1{
+    width: 211px;
+    height: 39px;
+    border: 1px solid #273549;
+    background-color: #273549;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: #55f991;
+}
+
+.border-pasw-inner2{
+    border: 1px solid #273549;
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 52px;
+    border-radius: 6px;
+    color: #55f991;
+}
