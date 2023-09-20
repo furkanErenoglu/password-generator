@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
 }
 
 .page{
@@ -41,6 +42,15 @@
     margin-bottom: 51px;
 }
 
+.page input{
+    box-sizing: border-box;
+    width: 185px;
+    height: 30px;
+    padding: 6px 15px;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+
 .btn{
     padding: 9px 17px 9px 15px;
     display: flex;
@@ -48,8 +58,8 @@
     align-items: center;
     gap: 12px;
     border-radius: 6px;
-    background-color: #10b981;
-    color: #5def92;
+    background-color: gray;
+    color: #fff;
 }
 
 .line{

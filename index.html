@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -12,15 +15,16 @@
     <div class="page-inner">
         <h1 class="first-h1">Generate a <br> <span class="sec-h1">random pasword</span></h1>
         <p>Never use an insecure password again.</p>
-        <button class="btn" onclick="clickfunc()"><img src="img/logo.svg" alt=""> Generate password</button>
+        <input id="input-id" min="1" max="20" type="number">
+        <button class="btn" id="btn" onclick="clickfunc()"><img src="img/logo.svg" alt=""> Generate password</button>
     
         <span class="line"></span>
 
         <div class="border-pasw">
-            <div class="border-pasw-inner1" id="pasw-1">
+            <div class="border-pasw-inner1" id="pasw-1" onclick="copy('pasw-1')">
                 <img src="img/icon.svg" alt="icon">
             </div>
-            <div class="border-pasw-inner2" id="pasw-2">
+            <div class="border-pasw-inner2" id="pasw-2" onclick="copy('pasw-2')">
                 <img src="img/icon.svg" alt="icon">
             </div>
         </div>
